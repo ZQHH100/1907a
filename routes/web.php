@@ -59,4 +59,4 @@ Route::prefix('channel')->group(function(){
 	
 Route::get('img','admin\ImgController@img');
 Route::get('sendAllOpenId','Weixin@sendAllOpenId');
-Route::get('/weixin/test/','Weixin@test');
+Route::get('test','Weixin@test');
